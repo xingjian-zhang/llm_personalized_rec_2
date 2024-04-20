@@ -12,7 +12,7 @@ BASE_SCRIPT = r"""#!/bin/bash
 #SBATCH --time=300:00
 #SBATCH --account=qmei3
 #SBATCH --partition=gpu
-#SBATCH --output=/home/%u/Course%x-%j.log
+#SBATCH --output=/home/jimmyzxj/Course/eecs598_llm/llm_personalized_rec_2/slurm_logs/%x-%j.log
 
 cd /home/jimmyzxj/Course/eecs598_llm/llm_personalized_rec_2/
 """
