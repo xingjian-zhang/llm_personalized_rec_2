@@ -8,6 +8,7 @@ clean:
 	rm -rf scripts
 	rm -rf log
 	rm -rf log_tensorboard
+	rm -rf slurm_logs
 
 sbatch: scripts
 	for script in scripts/*.sh; do \
