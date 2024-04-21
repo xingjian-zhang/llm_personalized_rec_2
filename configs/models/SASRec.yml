@@ -5,6 +5,8 @@ inner_size: 256                 # (int) The inner hidden size in feed-forward la
 hidden_dropout_prob: 0.3        # (float) The probability of an element to be zeroed.
 attn_dropout_prob: 0.3          # (float) The probability of an attention score to be zeroed.
 hidden_act: 'gelu'              # (str) The activation function in feed-forward layer.
+loss_type: 'BCE'
+
 
 # Training and evaluation config
 epochs: 100

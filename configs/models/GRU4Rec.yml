@@ -3,7 +3,7 @@ embedding_size: 64
 hidden_size: 128
 num_layers: 1
 dropout_prob: 0.3
-loss_type: 'CE'
+loss_type: 'BCE'
 
 # Training and evaluation config
 epochs: 100
