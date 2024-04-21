@@ -6,7 +6,8 @@ scripts:
 
 clean:
 	rm -rf scripts
-	rm -rf log
+	rm log/GRU4Rec/*
+	rm log/SASRec/*
 	rm -rf log_tensorboard
 	rm -rf slurm_logs
 
