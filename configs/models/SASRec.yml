@@ -16,5 +16,5 @@ eval_args:
     order: TO
     split: {'LS': 'valid_and_test'}
     mode: labeled
-metrics: ['RMSE', 'MAE', 'AUC', 'LogLoss']
+metrics: ['RMSE', 'MAE']
 valid_metric: RMSE
